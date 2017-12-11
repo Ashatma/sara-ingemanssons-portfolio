@@ -1,0 +1,256 @@
+/*
+Theme Name: Portfolio
+Text Domain: portfolio-theme
+Author: Paula Dana Pudane
+Description: Wordpress Labs, JU
+Domain path: /languages
+*/
+
+html:first-of-type {
+	margin-top:0 !important;
+}
+
+#wpadminbar {
+	margin-top:-32px;
+}
+
+body {
+	margin: 0;
+}
+
+
+/*                          HEADER                          */
+
+header {
+	background-color: #f7c327;
+}
+
+header p {
+	margin: 0;
+	display: block;
+	padding: 10px 0px 20px 110px;
+	font-size: 12pt;
+	width: 300px;
+	color: #fff;
+	line-height: 25px;
+}
+
+#maneki {
+	height: 80px;
+}
+
+#logo img {
+	padding: 75px 0px 0px 25px;
+}
+
+#logo h1 {
+	display: inline-block;
+	font-size: 70pt;
+	letter-spacing: -10px;
+	margin-bottom: 0px;
+	color: #fff;
+	text-decoration: none;
+	font-family: 'Roboto', sans-serif;
+	vertical-align: top;
+}
+
+ul.menu {
+	margin: 200px 0px 0px 0px;
+}
+
+.menu-main-container {
+	padding: 10px 100px 0px 0px;
+	width: 300px;
+	display: inline-block;
+	text-align: right;
+	float: right;
+	margin: 0;
+}
+
+.menu-main-container ul li {
+	display: inline-block;
+	font-family: 'Roboto', sans-serif;
+	font-size: 12pt;
+	font-weight: 500;
+	letter-spacing: 1px;
+	padding: 0px 25px 0px 25px;
+	text-transform: uppercase;
+}
+
+.menu-main-container ul li a {
+	text-decoration: none;
+	list-style: none;
+	color: #fff;
+}
+
+
+
+
+
+
+
+
+/*                          FOOTER                          */
+
+footer {
+	background-color: #d04b36;
+	height: 50px;
+	text-align: center;
+}
+
+footer h1 {
+	vertical-align: middle;
+	line-height: 50px;
+	color: #fff;
+	font-size: 10pt;
+	font-weight: 300;
+	font-family: 'Roboto', sans-serif;
+	letter-spacing: 1px;
+	margin: 0;
+}
+
+
+
+
+
+
+
+
+/*                          GRID                          */
+
+
+#grid-container {
+	display: inline-block;
+	overflow: hidden;
+}
+
+#grid {
+	display: inline-block;
+	height: 300px;
+	padding: 30px 15px 0px 15px;
+}
+
+#grid-container img {
+	display: inline-block;
+}
+
+#grid h2 {
+	font-family: "Roboto", sans-serif;
+	font-size: 13pt;
+	margin: 15px 15px 0px 15px;
+	text-align: center;
+	font-weight: 500;
+	text-transform: uppercase;
+	color: #000;
+}
+
+#grid a {
+	text-decoration: none;
+}
+
+
+
+
+
+
+
+
+/*                          GRID MENU                          */
+
+
+#grid_menu_container {
+	padding: 16px 0px 16px 90px;
+	background-color: #d04b36;
+}
+
+#grid_menu a {
+	text-decoration: none;
+	color: #fff;
+	text-transform: uppercase;
+	font-family: "Roboto", sans-serif;
+	font-size: 11pt;
+	font-weight: 400;
+	padding: 10px 15px 10px 15px;
+}
+
+
+
+
+
+
+
+
+/*                          SINGULAR                          */
+
+#singular_container {
+	width: 1100px;
+	margin: 0 auto;
+}
+
+#singular_container img {
+	padding: 5px 20px 0px 20px;
+}
+
+#singular_text_container {
+	font-family: "Roboto", sans-serif;
+	display: inline-block;
+	vertical-align: top;
+	margin-left: 20px;
+}
+
+#singular_text_container h3 {
+	display: block;
+	font-size: 35pt;
+	font-weight: 400;
+	margin: 0px 0px 30px 0px;
+	top: 0px;
+	width: 300px;
+	text-transform: uppercase;
+	letter-spacing: -3px;
+}
+
+#singular_text_container p {
+	font-size: 11pt;
+	line-height: 16pt;
+	width: 350px;
+}
+
+#skill img {
+	padding: 0;
+}
+
+#skill {
+	margin: 5px;
+	display: block;
+}
+
+#skill a {
+	margin: 5px 15px 5px 5px;
+	text-decoration: none;
+	color: #000;
+	display: inline;
+}
+
+#all_skills {
+	margin: 15px 0px 5px 0px;
+	display: block;
+}
+
+#all_skills p {
+	margin: 5px;
+	text-decoration: none;
+	color: #000;
+	display: inline;
+}
+
+#all_skills img {
+	padding: 0;
+}
+
+
+
+
+
+
+
+
