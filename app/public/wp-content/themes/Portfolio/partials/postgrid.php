@@ -13,7 +13,6 @@
 					
 					the_post_thumbnail('grid_thumbnail');
 				?>
-				<h2> <?php the_title(); ?> </h2>
 			</a>
 
 		</div>

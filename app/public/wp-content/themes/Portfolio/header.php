@@ -6,7 +6,7 @@
 		 <meta name="description" content="Portfolio web page">
 		 <meta name="keywords" content="portfolio, design, personal, works">
 	     <meta name="author" content="Paula Pudane">
-		 <link href="https://fonts.googleapis.com/css?family=Oswald:400,500,600|Roboto:300,400,500,700,900" rel="stylesheet">
+		 <link href="https://fonts.googleapis.com/css?family=Arimo:400,700|Prata:400" rel="stylesheet">
 		 <link rel='icon' href='<?= get_stylesheet_directory_uri(); ?>/img/logo_tab.png'>
 		 <link rel="stylesheet" href="<?php bloginfo('stylesheet_url') ?>">
 		 <?php wp_head(); ?>
@@ -14,14 +14,12 @@
 <body>
 		<header>
 
-			<?php wp_nav_menu(array('theme_location' => 'header-menu')); ?>
-
-			<a href="http://portfoliopaulapudane.local/work/" >
+			<a href="http://sara-ingemanssons-portfolio.local/" >
 				<div id="logo">
 					<h1>Sara Ingemansson</h1>
 				</div>
-			</a>
 
-			<p>Let the lucky paw of Maneki bless your day with a sprinkle of good fortune!</p>
+			<?php wp_nav_menu(array('theme_location' => 'header-menu')); ?>
+			</a>
 
 		</header>
